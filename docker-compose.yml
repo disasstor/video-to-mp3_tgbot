@@ -1,0 +1,8 @@
+version: '3.9'
+services:
+    bot:
+        image: video-to-mp3_tgbot:v1.0.0
+        restart: always
+        stop_signal: SIGINT
+        environment:
+            - BOT_TOKEN
