@@ -66,8 +66,7 @@ async def call_video(callback_query: types.CallbackQuery):
         chat_id=callback_query.from_user.id,
         audio=file,
         title=title,
-        thumb=thumbnail_crop,
-        duration=0
+        thumb=thumbnail_crop
     )
 
 
